@@ -1,0 +1,116 @@
+html,
+body,
+input,
+button {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background: url(../img/dbg.jpg) no-repeat fixed center;
+  background-size: cover;
+}
+
+.todolist {
+  background-color: whitesmoke;
+  border-radius: 5px;
+  padding: 20px;
+  width: 450px;
+}
+
+.todolist h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.todolist form .input-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.todolist form .input-group .input-todo {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+.todolist form .input-group .btn-add {
+  padding: 0 30px;
+  background: #292929;
+  color: white;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.todolist form .list li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+  -webkit-box-shadow: 0 1px 3px -3px #292929;
+          box-shadow: 0 1px 3px -3px #292929;
+  padding: 5px 0;
+}
+
+.todolist form .list li.checked .content {
+  opacity: 0.3;
+  text-decoration: line-through;
+}
+
+.todolist form .list li .check {
+  cursor: pointer;
+}
+
+.todolist form .list li .content {
+  margin-left: 5px;
+}
+
+.todolist form .list li .delete {
+  margin-left: auto;
+  background: rgba(255, 0, 0, 0.6);
+  border-radius: 3px;
+  color: white;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.todolist .actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 25px;
+}
+
+.todolist .actions button {
+  padding: 5px 3px;
+  margin-left: 5px;
+  font-size: 11px;
+  -webkit-box-shadow: inset 0 0 4px -2px #292929;
+          box-shadow: inset 0 0 4px -2px #292929;
+  border-radius: 3px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
